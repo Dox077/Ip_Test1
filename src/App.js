@@ -67,9 +67,7 @@ useEffect(() => {
 
   function Submit(formData) {
     fetch(
-      // "https://script.google.com/macros/s/AKfycbw3p5vg2AfUg3vBJmAQouPMLujglgUFqzEN-25tIb_95Uyrdg0IEDe1s0nk0Ks_nwdoNQ/exec",
-      // "https://script.google.com/macros/s/AKfycbw3p5vg2AfUg3vBJmAQouPMLujglgUFqzEN-25tIb_95Uyrdg0IEDe1s0nk0Ks_nwdoNQ/exec",
-      "https://script.google.com/macros/s/AKfycbxxu4njWr1s_F9GJ26qYH7HWiMG48tshXnoeyMZgw2s81sMmZxDVLsa8vCWkeT8-WgqfQ/exec",
+      "https://script.google.com/macros/s/AKfycbwb5ALqdIl1WKngZaPrYW--UAYuj5qc5p8uhAEzzzWEQzzG00dEuaheA-84HMzcNRr2/exec",
       {
         method: "POST",
         body: formData
