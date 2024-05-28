@@ -67,7 +67,7 @@ useEffect(() => {
 
   function Submit(formData) {
     fetch(
-      "https://script.google.com/macros/s/AKfycbwb5ALqdIl1WKngZaPrYW--UAYuj5qc5p8uhAEzzzWEQzzG00dEuaheA-84HMzcNRr2/exec",
+      "https://script.google.com/macros/s/AKfycbyksgzrzT6IzE_iDgf8cJD-sb-sNf2RuXpJM1M--H31QZ12khkc3PAgtxArOLwnk65c/exec",
       {
         method: "POST",
         body: formData
